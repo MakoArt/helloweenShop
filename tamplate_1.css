@@ -1,0 +1,282 @@
+
+
+.main-header__h1{
+    text-align: center;
+    color:rgb(218, 182, 64);
+  
+}
+.main-header__h2{
+    text-align: center;
+    color:rgb(218, 182, 23);
+}
+
+.main-header{
+    border:1px solid black;
+    box-shadow: 9px 29px 21px 12px rgb(65, 4, 4);
+    height: 450px;
+    background-image: url('tamplate.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:49%;
+    filter:hue-rotate(20deg);
+    filter:saturate(1);
+    border-radius:9px;
+    background-color: rgb(68, 15, 11);
+   
+}
+.main-body{
+    background:linear-gradient(90deg,brown,rgb(54, 5, 5));
+}
+.main-logo__inicio,
+.main-logo__cursos,
+.main-logo__trabajos,
+.main-logo__imagenes,
+.main-logo__contacto{
+    background-image:url('./tamplate_image_1/calabaza.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -60px;
+    width:90px;
+    height: 90px;
+    justify-content: space-evenly;
+    list-style: none;
+   
+}
+
+.main-nav__li{
+    list-style: none;
+}
+.main-nav__link--inicio,
+.main-nav__link--sobremi,
+.main-nav__link--cursos,
+.main-nav__link--imagenes,
+.main-nav__link--contacto,
+.main-nav__link--trabajos
+{
+    text-decoration: none;
+    color:rgb(230, 186, 112);
+    font-weight: bolder;
+  
+}
+.main-nav__link:hover{
+
+ font-size: 20px;
+ background-color: rgb(141, 15, 15);
+ padding:9px;
+}
+
+.main-nav__ul{
+    display:flex;
+    justify-content: space-around;
+    margin-top:300px;
+    background-color: rgb(170, 99, 18);
+    padding:12px;
+   
+}
+.main-nav__ul--logoContainer{
+    display:inline-flex;
+    justify-content: space-around;
+    
+}
+
+/*MAIN*/
+
+.main-main{
+  height: 2000px;
+
+}
+.main-main__article{
+  height: 1700px;
+  border:6px solid rgb(228, 213, 12);
+}
+.main-main__section--1{
+  
+    border:6px solid rgb(228, 213, 12);
+    height: 200px;
+
+}
+.main-section__h2{
+   text-align: center;
+   color:rgb(180, 180, 24);
+ 
+}
+
+.main-main__section--2{
+    border:6px solid rgb(228, 213, 12);
+    height: 370px;
+}
+
+
+.main-main__section--3{
+    border:6px solid rgb(228, 213, 12);
+    height: 370px;
+}
+
+
+.main-main__section--4{
+    border:6px solid rgb(228, 213, 12);
+    height: 370px;
+}
+
+
+
+.main-main__section--5{
+    
+    height: 185px;
+}
+
+.main-section__row{
+   height: 40%;
+   width:100%;
+   display: flex;
+   justify-content: space-around;
+}
+.main-section__col{
+ 
+  height: 165%;
+  width:200px;
+  
+ 
+}
+.main-section__col:active{
+ 
+filter:saturate(2);
+
+  
+ 
+}
+.main-section__col--1{
+ background-image: url('./tamplate_image_1/mask-2014554_1280-min.jpg');
+ background-size: contain;
+ background-repeat:no-repeat;
+ height: 90%;
+ box-shadow: 9px 19px 9px 10px rgb(255, 187, 0);
+ border:1px solid black;
+
+}
+.main-section__col--2{
+ background-image: url('./tamplate_image_1/mask-2014556_1280-min.jpg');
+ background-size: contain; 
+ background-repeat: no-repeat;  
+ box-shadow: 9px 19px 9px 10px rgb(255, 187, 0);
+ height: 90%;
+}
+.main-section__col--3{
+  background-image: url('./tamplate_image_1/mask-3092920_1280-min.jpg');
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  box-shadow: 9px 19px 9px 10px rgb(255, 187, 0);
+  height: 90%;
+}
+.main-section__col--4{
+ background-image: url('./tamplate_image_1/venice-1251378_1280-min.jpg');
+ background-size: contain;
+ background-repeat:no-repeat;
+ height: 102%;
+ box-shadow: 9px 19px 9px 10px rgb(255, 187, 0);
+
+}
+.main-section__col--5{
+ background-image: url('./tamplate_image_1/venice-4295695_1280-min.jpg');
+ background-size: contain; 
+ background-repeat: no-repeat;  
+ box-shadow: 9px 19px 9px 10px rgb(255, 187, 0);
+ height: 90%;
+}
+.main-section__col--6{
+  background-image: url('./tamplate_image_1/carnival-4976373_1280-min.jpg');
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  box-shadow: 9px 19px 9px 10px rgb(255, 187, 0);
+  height:107% ;
+
+}
+.main-section__col--7{
+ background-image: url('./tamplate_image_1/halloween-4677606_1280-min.jpg');
+ background-size: contain;
+ background-repeat:no-repeat;
+ height: 140%;
+ box-shadow: 9px 19px 9px 10px rgb(255, 187, 0);
+ height: 90%;
+}
+.main-section__col--8{
+ background-image: url('./tamplate_image_1/pumpkin-5687560_1280\ \(1\)-min\ \(1\).jpg');
+ background-size: contain; 
+ background-repeat: no-repeat;  
+ box-shadow: 9px 19px 9px 10px rgb(255, 187, 0);
+ height: 104%;
+}
+.main-section__col--9{
+  background-image: url('./tamplate_image_1/witch-4775636_1280-min.jpg');
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  box-shadow: 9px 19px 9px 10px rgb(255, 187, 0);
+  height: 95%;
+}
+.main-section__col--10{
+ background-image: url('./tamplate_image_1/girl-1979269_1280-min.jpg');
+ background-size: contain;
+ background-repeat:no-repeat;
+ height: 180%;
+ box-shadow: 9px 19px 9px 10px rgb(255, 187, 0);
+
+}
+.main-section__col--11{
+ background-image: url('./tamplate_image_1/fashion-model-1769168_1280\ \(1\).jpg');
+ background-size: contain; 
+ background-repeat: no-repeat;  
+ box-shadow: 9px 19px 9px 10px rgb(255, 187, 0);
+ height: 180%;
+}
+.main-section__col--12{
+  background-image: url('./tamplate_image_1/steampunk-4333357_1280-min.jpg');
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  box-shadow: 9px 19px 9px 10px rgb(255, 187, 0);
+  height: 180%;
+}
+.main-carrito{
+    background-image: url('./tamplate_image_1/cart-148964_1280.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:100px;
+    height: 100px;
+}
+.main-col__text{
+    color:rgb(139, 10, 10);
+    background-color: rgb(218, 169, 10);
+    margin-top: 0px;
+}
+.main-carrito__list{
+    position:absolute;
+    height:40px;
+    width: 300px;
+    border:1px solid black;
+    background-color: darkorange;
+    box-shadow: 9px 12px 10px 2px rgb(27, 2, 2);
+    
+}
+.main-carrito__btn--cerrar{
+    margin-top:0px;
+    width:100%;
+    height: 40px;
+    box-shadow: 0px 0px 19px 0px rgb(65, 3, 3);
+    background: linear-gradient(90deg,rgb(148, 13, 13),rgb(34, 2, 2));
+    color:rgb(199, 132, 9);
+    font-weight: bolder;
+    border-radius:9px;
+    
+}
+
+.main-carrito__btn--enviar{
+    margin-top:0px;
+    width:100%;
+    height: 40px;
+    box-shadow: 0px 0px 19px 0px rgb(65, 3, 3);
+    background: linear-gradient(90deg,rgb(148, 13, 13),rgb(34, 2, 2));
+    color:rgb(199, 132, 9);
+    font-weight: bolder;
+    border-radius:9px;
+    
+}
+
